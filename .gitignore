@@ -51,7 +51,7 @@ xcodebuild_error.log
 Pods
 
 # Carthage files
-Carthage
+Carthage/Build
 
 # Bundler files
 .bundle
