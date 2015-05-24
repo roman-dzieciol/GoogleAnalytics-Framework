@@ -25,6 +25,7 @@
 		3A9158991B12302A00A8FA96 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9158981B12302A00A8FA96 /* libz.1.dylib */; };
 		3A91589B1B12303400A8FA96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A91589A1B12303400A8FA96 /* UIKit.framework */; };
 		3A91589E1B12304B00A8FA96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A91589D1B12304B00A8FA96 /* Foundation.framework */; };
+		3A97DBEE1B12484600276051 /* GoogleAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A97DBED1B12484600276051 /* GoogleAnalytics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		3A91589A1B12303400A8FA96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3A91589D1B12304B00A8FA96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3A97DBEC1B1246A000276051 /* GoogleAnalytics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleAnalytics-Info.plist"; sourceTree = "<group>"; };
+		3A97DBED1B12484600276051 /* GoogleAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalytics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				3A9158731B12221900A8FA96 /* External Binaries */,
 				3A9158721B12221200A8FA96 /* External Headers */,
 				3A9158401B1220A100A8FA96 /* GoogleAnalytics.h */,
+				3A97DBED1B12484600276051 /* GoogleAnalytics.m */,
 				3A97DBEC1B1246A000276051 /* GoogleAnalytics-Info.plist */,
 			);
 			path = "Google Analytics";
@@ -323,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A97DBEE1B12484600276051 /* GoogleAnalytics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
