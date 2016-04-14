@@ -1,6 +1,6 @@
 # GoogleAnalytics-Framework
 
-[![](https://img.shields.io/github/release/akashivskyy/GoogleAnalytics-Framework.svg)](https://github.com/akashivskyy/GoogleAnalytics-Framework/releases)
+[![](https://img.shields.io/github/tag/akashivskyy/GoogleAnalytics-Framework.svg?label=version)](https://github.com/akashivskyy/GoogleAnalytics-Framework/tags)
 [![](https://img.shields.io/badge/carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
 [![](https://img.shields.io/badge/cocoapods-incompatible-red.svg)](https://github.com/Carthage/Carthage)
 
