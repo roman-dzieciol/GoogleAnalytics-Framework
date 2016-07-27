@@ -1,9 +1,8 @@
 //
-//  GoogleAnalytics.m
+// GoogleAnalytics.m
 //
-//  Copyright (c) 2015 Adrian Kashivskyy. All rights reserved.
-//
-//  Licensed under the MIT License.
+// Copyright © 2015-2016 Adrian Kashivskyy. All rights reserved.
+// Licensed under the MIT License.
 //
 
 #import "GAI.h"
