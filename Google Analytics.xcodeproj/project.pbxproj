@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3FD4821D489982000FE823 /* TAGContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3FD47D1D489982000FE823 /* TAGContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A3FD4831D489982000FE823 /* TAGContainerOpener.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3FD47E1D489982000FE823 /* TAGContainerOpener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A3FD4841D489982000FE823 /* TAGDataLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3FD47F1D489982000FE823 /* TAGDataLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A3FD4851D489982000FE823 /* TAGLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3FD4801D489982000FE823 /* TAGLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A3FD4861D489982000FE823 /* TAGManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3FD4811D489982000FE823 /* TAGManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A9158411B1220A100A8FA96 /* GoogleAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9158401B1220A100A8FA96 /* GoogleAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A9158751B12223D00A8FA96 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9158741B12223D00A8FA96 /* libGoogleAnalyticsServices.a */; };
 		3A9158801B12224800A8FA96 /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9158761B12224800A8FA96 /* GAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +34,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A3FD47D1D489982000FE823 /* TAGContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
+		3A3FD47E1D489982000FE823 /* TAGContainerOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
+		3A3FD47F1D489982000FE823 /* TAGDataLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
+		3A3FD4801D489982000FE823 /* TAGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGLogger.h; sourceTree = "<group>"; };
+		3A3FD4811D489982000FE823 /* TAGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGManager.h; sourceTree = "<group>"; };
 		3A91583B1B1220A100A8FA96 /* GoogleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9158401B1220A100A8FA96 /* GoogleAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleAnalytics.h; sourceTree = "<group>"; };
 		3A9158591B12217400A8FA96 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
@@ -211,6 +221,11 @@
 				3A91587D1B12224800A8FA96 /* GAILogger.h */,
 				3A91587E1B12224800A8FA96 /* GAITrackedViewController.h */,
 				3A91587F1B12224800A8FA96 /* GAITracker.h */,
+				3A3FD47D1D489982000FE823 /* TAGContainer.h */,
+				3A3FD47E1D489982000FE823 /* TAGContainerOpener.h */,
+				3A3FD47F1D489982000FE823 /* TAGDataLayer.h */,
+				3A3FD4801D489982000FE823 /* TAGLogger.h */,
+				3A3FD4811D489982000FE823 /* TAGManager.h */,
 			);
 			name = "External Headers";
 			path = External;
@@ -248,12 +263,17 @@
 				3A9158811B12224800A8FA96 /* GAIDictionaryBuilder.h in Headers */,
 				3A9158861B12224800A8FA96 /* GAIFields.h in Headers */,
 				3A9158801B12224800A8FA96 /* GAI.h in Headers */,
+				3A3FD4851D489982000FE823 /* TAGLogger.h in Headers */,
+				3A3FD4821D489982000FE823 /* TAGContainer.h in Headers */,
 				3A9158821B12224800A8FA96 /* GAIEcommerceFields.h in Headers */,
 				3A9158881B12224800A8FA96 /* GAITrackedViewController.h in Headers */,
 				3A9158871B12224800A8FA96 /* GAILogger.h in Headers */,
 				3A9158891B12224800A8FA96 /* GAITracker.h in Headers */,
+				3A3FD4861D489982000FE823 /* TAGManager.h in Headers */,
+				3A3FD4831D489982000FE823 /* TAGContainerOpener.h in Headers */,
 				3A9158831B12224800A8FA96 /* GAIEcommerceProduct.h in Headers */,
 				3A9158411B1220A100A8FA96 /* GoogleAnalytics.h in Headers */,
+				3A3FD4841D489982000FE823 /* TAGDataLayer.h in Headers */,
 				3A9158851B12224800A8FA96 /* GAIEcommercePromotion.h in Headers */,
 				3A9158841B12224800A8FA96 /* GAIEcommerceProductAction.h in Headers */,
 			);
@@ -362,7 +382,7 @@
 				INFOPLIST_FILE = "Google Analytics/GoogleAnalytics-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/Google Analytics/External\"",
+					"$(PROJECT_DIR)/Google\\ Analytics/External",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -380,7 +400,7 @@
 				INFOPLIST_FILE = "Google Analytics/GoogleAnalytics-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(PROJECT_DIR)/Google Analytics/External\"",
+					"$(PROJECT_DIR)/Google\\ Analytics/External",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
