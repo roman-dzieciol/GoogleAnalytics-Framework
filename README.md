@@ -35,7 +35,12 @@ github "akashivskyy/GoogleAnalytics-Framework"
 
 ### CocoaPods
 
-CocoaPods is not yet officially supported, but you may still [submit a pull request](https://github.com/akashivskyy/GoogleAnalytics-Framework/pulls).
+While CocoaPods is not supported by this fork, you may still use the official `Google/Analytics` pod as CocoaPods creates framework targets automatically:
+
+```none
+use_frameworks!
+pod "Google/Analytics"
+```
 
 ## About
 
