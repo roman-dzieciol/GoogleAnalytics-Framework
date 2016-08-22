@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/github/tag/akashivskyy/GoogleAnalytics-Framework.svg?label=version)](https://github.com/akashivskyy/GoogleAnalytics-Framework/tags)
 [![](https://img.shields.io/badge/carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
-[![](https://img.shields.io/badge/cocoapods-incompatible-red.svg)](https://github.com/Carthage/Carthage)
+[![](https://img.shields.io/badge/cocoapods-incompatible-red.svg)](https://cocoapods.org)
 
 **GoogleAnalytics-Framework** is a dynamic framework wrapper for [Google Analytics iOS SDK](https://developers.google.com/analytics/devguides/collection/ios/v3/).
 
