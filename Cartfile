@@ -6,4 +6,4 @@
 #  Licensed under the MIT License.
 #
 
-github "jspahrsummers/xcconfigs"
+github "jspahrsummers/xcconfigs" == 1.0
